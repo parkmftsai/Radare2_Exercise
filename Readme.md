@@ -62,7 +62,7 @@ def radare2_Decompile_Tool(str,flag):<br />
 最後開始修改機器語言,使用以下語法<br />
 r2.cmd("wx eb")<br />
 我們在使用r2.cmd("pd @sym.main")看個組合語言,可以發現<br />
-<img src="https://github.com/parkmftsai/Radare2_Exercise/blob/master/image/picture4.png" align=left/><br />
+<img src="https://github.com/parkmftsai/Radare2_Exercise/blob/master/image/picture3.png" align=left/><br />
 同樣,我們可以觀察出以下這段組合語言語法<br />
         ,=< 0x0040068a      eb0c           jmp 0x400698<br />
         |   0x0040068c      bf5c074000     mov edi, str.even           ; testc.c:9       puts("even"); ; 0x40075c ; "even"<br />
