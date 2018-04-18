@@ -17,7 +17,7 @@ int main()<br />
 
 return 0;<br />
 }<br />
-這是判斷一個判斷奇偶數的code,在Linux commamd line 執行的情況如下
+這是一個判斷奇偶數的code,在Linux commamd line 執行的情況如下
 <br />
 <img src="https://github.com/parkmftsai/Radare2_Exercise/blob/master/image/picture1.png" align=left/>
 <br />
