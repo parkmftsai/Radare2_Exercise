@@ -7,11 +7,11 @@ int main()<br />
 {<br />
     &emsp;&emsp;int i;<br />
     &emsp;&emsp;printf("please input number:");<br />
-    scanf("%d",&i);<br />
-    if(i%2==0)<br />
-      puts("even");<br />
-    else<br />
-      puts("odd");<br />
+    &emsp;&emsp;scanf("%d",&i);<br />
+    &emsp;&emsp;if(i%2==0)<br />
+      &emsp;&emsp;&emsp;&emsp;puts("even");<br />
+    &emsp;&emsp;else<br />
+      &emsp;&emsp;&emsp;&emsp;puts("odd");<br />
 
 
 return 0;<br />
