@@ -1,6 +1,7 @@
 20180418<br />
 這是radare2的練習,radare2是專門用來做逆向工程的工具
 <br />首先在我們的project裡頭有個C source code,程式碼如下
+<br />
 #include<stdio.h><br />
 #include<stdlib.h><br />
 int main()<br />
