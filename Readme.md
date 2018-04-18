@@ -38,10 +38,10 @@ return 0;<br />
 其中jne(jump not equal)意義為當不符合條件時會跳到一個位址（address）<br />
 這段語法為上述語法<br />
 if(i%2==0)  <br />
-     puts("even"); <br />
+     &emsp;&emsp;puts("even"); <br />
       
 else <br />
-     puts("odd");
+     &emsp;&emsp;puts("odd");
       <br />
 在判斷時的組合語言表示方式<br />
 
@@ -53,12 +53,12 @@ r2.cmd("s 0x0040068a")<br />
 ,這裡使用rasm2這個工具進行反編譯,用來查詢jne以及jmp的機器碼,以下function提供此功能<br />
 
 def radare2_Decompile_Tool(str,flag):<br />
-    cpu_Structure = "x86"<br />
-    cpu_Register_bit = "64"<br />
-    if(flag == 1):<br />
-        return r2.syscmd("rasm2 -a " + cpu_Structure + " -b " + cpu_Register_bit + " -d " + str)<br />
-    if (flag == 2):<br />
-        return r2.syscmd("rasm2 -a " + cpu_Structure + " -b " + cpu_Register_bit + " " + str)<br />
+    &emsp;&emsp;cpu_Structure = "x86"<br />
+    &emsp;&emsp;cpu_Register_bit = "64"<br />
+    &emsp;&emsp;if(flag == 1):<br />
+        &emsp;&emsp;&emsp;&emsp;return r2.syscmd("rasm2 -a " + cpu_Structure + " -b " + cpu_Register_bit + " -d " + str)<br />
+    &emsp;&emsp;if (flag == 2):<br />
+        &emsp;&emsp;&emsp;&emsp;return r2.syscmd("rasm2 -a " + cpu_Structure + " -b " + cpu_Register_bit + " " + str)<br />
 
 經過查詢jne機器碼為75,jmp為eb<br />
 最後開始修改機器語言,使用以下語法<br />
