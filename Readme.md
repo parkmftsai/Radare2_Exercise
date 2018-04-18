@@ -37,10 +37,10 @@ return 0;<br />
 
 其中jne(jump not equal)意義為當不符合條件時會跳到一個位址（address）<br />
 這段語法為上述語法<br />
-if(i%2==0) 
-     puts("even");
-      <br />
-else
+if(i%2==0)  <br />
+     puts("even"); <br />
+      
+else <br />
      puts("odd");
       <br />
 在判斷時的組合語言表示方式<br />
