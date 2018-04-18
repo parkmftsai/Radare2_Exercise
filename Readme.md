@@ -5,8 +5,8 @@
 #include<stdlib.h><br />
 int main()<br />
 {<br />
-    int i;<br />
-    printf("please input number:");<br />
+    &emsp;&emsp;int i;<br />
+    &emsp;&emsp;printf("please input number:");<br />
     scanf("%d",&i);<br />
     if(i%2==0)<br />
       puts("even");<br />
