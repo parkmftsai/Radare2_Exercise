@@ -39,9 +39,12 @@ return 0;<br />
 這段語法為上述語法<br />
  if(i%2==0)<br />
  
-      puts("even");<br />
-    else<br />
-      puts("odd");<br />
+      puts("even");
+        <br />
+    else
+        <br />
+      puts("odd");
+      <br />
 在判斷時的組合語言表示方式<br />
 
 再來我們可以透過r2pipe更改其組合語言語法,首先先進入要修改的區塊,使用以下語法<br />
