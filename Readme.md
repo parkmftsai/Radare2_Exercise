@@ -17,7 +17,9 @@ int main()
 return 0;
 }
 這是判斷一個判斷奇偶數的code,在Linux commamd line 執行的情況如下
+<br />
 <img src="https://github.com/parkmftsai/Radare2_Exercise/blob/master/image/picture1.png" align=left/>
+<br />
 接著我們使用Python 寫一個腳本(testradare2.py),透過radare2套件r2pipe針對執行檔test.out進行逆向工程
 
 其中我們可以用r2.cmd("pd @sym.main")這段語法看test.out主程式區(main)的組合語言
