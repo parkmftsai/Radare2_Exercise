@@ -1,21 +1,21 @@
 20180418
 這是radare2的練習,radare2是專門用來做逆向工程的工具
 首先在我們的project裡頭有個C source code,程式碼如下
-#include<stdio.h>
-#include<stdlib.h>
-int main()
-{
-    int i;
-    printf("please input number:");
-    scanf("%d",&i);
-    if(i%2==0)
-      puts("even");
-    else
-      puts("odd");
+#include<stdio.h><br />
+#include<stdlib.h><br />
+int main()<br />
+{<br />
+    int i;<br />
+    printf("please input number:");<br />
+    scanf("%d",&i);<br />
+    if(i%2==0)<br />
+      puts("even");<br />
+    else<br />
+      puts("odd");<br />
 
 
-return 0;
-}
+return 0;<br />
+}<br />
 這是判斷一個判斷奇偶數的code,在Linux commamd line 執行的情況如下
 <br />
 <img src="https://github.com/parkmftsai/Radare2_Exercise/blob/master/image/picture1.png" align=left/>
